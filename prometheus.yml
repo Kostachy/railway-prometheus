@@ -10,4 +10,4 @@ scrape_configs:
   - job_name: 'app'
     scrape_interval: 5s
     static_configs:
-      - targets: ['tonai_back.railway.internal']
+      - targets: ['tonaiback-production.up.railway.app']
